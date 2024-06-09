@@ -36,7 +36,7 @@ export default async (skins, chatId) => {
 			let message = `
 				${skin.name}
 				\nCS.Money Price: ${skin.csPrice}
-				\nBUFF163 Price: ${skin.buffPrice}
+				\nFloat:: ${skin.float}
 				\nProfit: ${skin.profit}%
 				`;
 			await bot.api.sendPhoto(chatId, skin.photo, {
