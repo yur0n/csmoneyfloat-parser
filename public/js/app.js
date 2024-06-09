@@ -74,8 +74,8 @@ async function start() {
 }
 
 window.addEventListener("message", (e) => {
-    if (e.data.parsedSkins) {
-        const skins = e.data.parsedSkins
+    if (e.data.parsedSkinsFloat) {
+        const skins = e.data.parsedSkinsFloat
         if (skins.error) {
 
             const row = document.createElement('div');
