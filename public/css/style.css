@@ -754,7 +754,7 @@ input[type=number] {
     cursor: pointer;
 }
 .logs-content__info-row h4.selected {
-    background-color: #5A2240;
+    background-color: #4b4856;
 }
 .logs-content__info-row ul {
     width: 50%;
