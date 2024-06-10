@@ -71,7 +71,7 @@ async function loadItems(key, item) {
 
 	const newItemContainer = document.createElement('div');
 	const newUl = document.createElement('ul');
-	newItemContainer.classList.add('table-content__info-row');
+	newItemContainer.classList.add('logs-content__info-row');
 	
 	const itemName = document.createElement('h4');
 	itemName.classList.add('item-name');

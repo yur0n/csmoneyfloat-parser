@@ -97,11 +97,15 @@ window.addEventListener("message", (e) => {
             const row = document.createElement('div');
             row.classList.add('table-content__info-row');
             row.innerHTML = `
-            <h3>Found profitable skin: ${skin.name}</h3>
-            <p>CS.Money Price: ${skin.csPrice}</p>
-            <p>Float: ${skin.float}</p>
-            <p>Profit: ${skin.profit}%</p>
-            <p><a href="${skin.link}" target="_blank">СS.Money Link</a></p>
+                <div>
+                    <h3>Found profitable skin:</h3>
+                </div>
+                <div>
+                    <h4>${skin.name}</h4><p>|</p><p>CS.Money Price: ${skin.csPrice}</p><p>|</p><p>Profit: ${skin.profit}%</p>
+                </div>
+                <div>
+                    <p>Float: ${skin.float}</p><p>|</p><p><a href="${skin.link}" target="_blank">СS.Money Link</a></p>
+                </div>
             `;
             table.appendChild(row);
         });
