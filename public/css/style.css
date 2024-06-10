@@ -721,6 +721,7 @@ input[type=number] {
     font-size: 18px;
     font-weight: 400;
     color: #fff;
+    pointer-events: none;
 }
 
 .logs-content__info-row {
