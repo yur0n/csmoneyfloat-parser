@@ -753,7 +753,7 @@ input[type=number] {
     cursor: pointer;
 }
 .logs-content__info-row h4.selected {
-    background-color: #52557b;
+    background-color: #5A2240;
 }
 .logs-content__info-row ul {
     width: 50%;
